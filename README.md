@@ -4,9 +4,9 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<h3 align="center">Material Generation with Stable Diffusion XL</h3>
+<h3 align="left">Material Generation with Stable Diffusion XL</h3>
 
-  <p align="center">
+  <p align="left">
     Chenxi Liao
   </p>
 
@@ -14,16 +14,16 @@
 
 ![teaser](info_imgs/teaser_sdxl.png)
 
-Here is a demo of training a Stable Diffusion XL to generate realistic material appearances.
+Here is a demo of training a Stable Diffusion XL to generate realistic material appearances, by learning from a small set of real photos of rocks/crystals. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
 ## Prepare the image dataset
-* Create a folder that contains a specific material. See example for the [rocks](rocks)
+* Create a folder that contains a specific material. See example for the dataset structure in [rocks](rocks).
 
-* Create the [metadata.jsonl](rocks/metadata.jsonl).
+* In the image dataset, create the [metadata.jsonl](rocks/metadata.jsonl).
   - file_name: the file name of the training image
   - prompt: the caption of the image 
   
